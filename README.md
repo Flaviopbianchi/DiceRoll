@@ -19,7 +19,7 @@ que resultam em um número aleatório.
 - Math.Floor e Math.Random
 - InnerHTML
 
-## Propriedades Estudadas HTML e CSS
+## HTML e CSS
 
 - label
 - input
