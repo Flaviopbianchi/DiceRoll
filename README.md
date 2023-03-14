@@ -2,9 +2,18 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
+![HTML](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![CSS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 # Estudo 
 
-Projeto de estudo utilizando javaScript, CSS e HTML que durou até o momento quatro dias
+Projeto de estudo utilizando javaScript, CSS e HTML.
+Um rolador de dados com funções de quantidades de dados rolados e tipo de dado rolado
+que resultam em um número aleatório.
+
 
 
 ## Autores
@@ -18,7 +27,7 @@ Projeto de estudo utilizando javaScript, CSS e HTML que durou até o momento qua
 - JavaScript
 
 
-## Propriedades Estudadas JavaScript
+## JavaScript
 
 - Funções
 - Condicionais
@@ -26,7 +35,7 @@ Projeto de estudo utilizando javaScript, CSS e HTML que durou até o momento qua
 - Math.Floor e Math.Random
 - InnerHTML
 
-## Propriedades Estudadas HTML e CSS
+## Propriedades HTML e CSS
 
 - label
 - input
@@ -44,10 +53,10 @@ de seleção sem perder o 'value' do input.
 
 - FIGMA
 
-## 🚀 Sobre mim
+## Sobre mim
 Data-Driven | lifelong learner | hands-on.
 
-Profissional da área de comunicação e marketing formado pela Anhembi Morumbi em marketing e pós-graduado em comunicação marcas e consumo. 
+Profissional de marketing formado pela Anhembi Morumbi em marketing e pós-graduado em comunicação marcas e consumo. 
 Tenho mais de 5 anos de experiência na área atuando em empresas de pequeno e grande porte nos segmentos de: 
 - desenvolvimento de software 
 - entretenimento
