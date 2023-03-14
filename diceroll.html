@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <script type="text/javascript" src="js/diceRollScript.js"></script>
+
+    <title>D&D Dice Roll</title>
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <h1 class="header__titulo"><strong>D&D</strong> Dice Roll</h1>
+            <img class="header__imgDados" src="img/imagemDados.svg" alt="Conjunto de dados de 4 lados até 20 lados">
+        </section>
+    </header>
+
+    <!-- Seção de resultados e dados selecionado -->
+
+    <section class="secao__principal">
+        <h2 class="principal__titulo">Resultado</h2>
+        <div class="principal__container">
+            <p class="resultado" id="resultado">3</p>
+        </div>
+        <!-- <div class="secundario">
+            <h3 class="secundario__titulo"> Dado Selecionado</h3>
+            <img class="secundario__dado" src="img/dadoD4.svg" alt="dado de 4 lados.">
+            <p class="secundario__dado__texto">D4</p>
+        </div> -->
+        <button onclick="rolarDados()" id="botao-rolar-dados" type="button" class="botao">Rolar</button>
+    </section>
+
+    <!-- selecionar quantidade de dados que irão ser rolados -->
+
+    <section class="container__quantidade__dados">
+        
+        <button onclick="menos()" id="menosDados" class="botao__menos">-</button>
+        <p id="quantidadeDados" class="quantidade">1</p>
+        <button onclick="mais()" id="addDados" class="botao__menos"> + </button>
+
+    </section>
+
+    <!-- menu de seleção dos dados -->
+    <navbar class="menu">
+        <ul class="lista">
+            <li class="lista__dados">
+                <input name="numeroLados" id="quatroLados" type="radio" value="4" checked>
+                <label class="quatrolados" for="numeroLados">D4</label>
+            </li>
+            <div class="lista__dados">
+                <input name="numeroLados" id="seisLados" type="radio" value="6">
+                <label for="numeroLados">D6</label>
+            </div>
+            <li class="lista__dados">
+                <input name="numeroLados" id="oitoLados" type="radio" value="8">
+                <label for="numeroLados">D8</label>
+            </li>
+            <li class="lista__dados">
+                <input name="numeroLados" id="dezLados" type="radio" value="10">
+                <label for="numeroLados">D10</label>
+            </li>
+            <li class="lista__dados">
+                <input name="numeroLados" id="dozeLados" type="radio" value="12">
+                <label for="numeroLados">D12</label>
+            </li>
+            <li class="lista__dados">
+                <input name="numeroLados" id="vinteLados" type="radio" value="20">
+                <label for="numeroLados">D20</label>
+            </li>
+        </ul>
+        <footer class="rodape">
+            <p>DiceRoll</p>
+        </footer>
+    </navbar>
+</body>
+
+</html>
