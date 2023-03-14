@@ -8,17 +8,8 @@
 
 # Estudo 
 
-Projeto de estudo utilizando javaScript, CSS e HTML.
 Um rolador de dados com funções de quantidades de dados rolados e tipo de dado rolado
 que resultam em um número aleatório.
-
-
-
-## 🛠 Habilidades
-- HTML
-- CSS
-- JavaScript
-
 
 ## Propriedades Estudadas JavaScript
 
@@ -46,10 +37,10 @@ de seleção sem perder o 'value' do input.
 
 - FIGMA
 
-## 🚀 Sobre mim
+## Sobre mim
 Data-Driven | lifelong learner | hands-on.
 
-Profissional da área de comunicação e marketing formado pela Anhembi Morumbi em marketing e pós-graduado em comunicação marcas e consumo. 
+Profissional da área de comunicação e marketing. 
 Tenho mais de 5 anos de experiência na área atuando em empresas de pequeno e grande porte nos segmentos de: 
 - desenvolvimento de software 
 - entretenimento
