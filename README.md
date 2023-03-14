@@ -2,32 +2,16 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-![HTML](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-![CSS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 # Estudo 
 
-Projeto de estudo utilizando javaScript, CSS e HTML.
 Um rolador de dados com funções de quantidades de dados rolados e tipo de dado rolado
 que resultam em um número aleatório.
 
-
-
-## Autores
-
-- [@flaviopbianchi](https://www.github.com/flaviopbianchi)
-
-
-## 🛠 Habilidades
-- HTML
-- CSS
-- JavaScript
-
-
-## JavaScript
+## Propriedades Estudadas JavaScript
 
 - Funções
 - Condicionais
@@ -35,7 +19,7 @@ que resultam em um número aleatório.
 - Math.Floor e Math.Random
 - InnerHTML
 
-## Propriedades HTML e CSS
+## HTML e CSS
 
 - label
 - input
@@ -56,7 +40,7 @@ de seleção sem perder o 'value' do input.
 ## Sobre mim
 Data-Driven | lifelong learner | hands-on.
 
-Profissional de marketing formado pela Anhembi Morumbi em marketing e pós-graduado em comunicação marcas e consumo. 
+Profissional da área de comunicação e marketing. 
 Tenho mais de 5 anos de experiência na área atuando em empresas de pequeno e grande porte nos segmentos de: 
 - desenvolvimento de software 
 - entretenimento
