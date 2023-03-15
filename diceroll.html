@@ -30,50 +30,65 @@
         <div class="principal__container">
             <p class="resultado" id="resultado">3</p>
         </div>
+        
         <!-- <div class="secundario">
             <h3 class="secundario__titulo"> Dado Selecionado</h3>
             <img class="secundario__dado" src="img/dadoD4.svg" alt="dado de 4 lados.">
             <p class="secundario__dado__texto">D4</p>
         </div> -->
-        <button onclick="rolarDados()" id="botao-rolar-dados" type="button" class="botao">Rolar</button>
     </section>
 
+    
     <!-- selecionar quantidade de dados que irão ser rolados -->
 
-    <section class="container__quantidade__dados">
-        
+    <section class="container__modificador">
+        <p class="modificador"> Quantidade de dados </p>
+        <div class="container__secundario">
         <button onclick="menos()" id="menosDados" class="botao__menos">-</button>
         <p id="quantidadeDados" class="quantidade">1</p>
         <button onclick="mais()" id="addDados" class="botao__menos"> + </button>
-
+        </div>    
     </section>
+
+    <section class="container__modificador">
+        <p class="modificador"> Modificador </p>
+        <div class="container__secundario">
+        <button onclick="menosMod()" id="maisModificador" class="botao__menos">-</button>
+        <p id="modificador" class="quantidade">0</p>
+        <button onclick="maisMod()" id="menosModificador" class="botao__menos"> + </button>
+        </div>
+    </section>
+
+    <section class="secao__principal">
+    <button onclick="rolarDados()" id="botao-rolar-dados" type="button" class="botao">Rolar</button>
+    </section>    
 
     <!-- menu de seleção dos dados -->
     <navbar class="menu">
         <ul class="lista">
             <li class="lista__dados">
-                <input name="numeroLados" id="quatroLados" type="radio" value="4" checked>
-                <label class="quatrolados" for="numeroLados">D4</label>
-            </li>
-            <div class="lista__dados">
-                <input name="numeroLados" id="seisLados" type="radio" value="6">
-                <label for="numeroLados">D6</label>
-            </div>
-            <li class="lista__dados">
-                <input name="numeroLados" id="oitoLados" type="radio" value="8">
-                <label for="numeroLados">D8</label>
+                <input class="lista__dados__input" id="dadoD4" name="numeroLados" type="radio" value="4" checked>
+                <label for="dadoD4"><img src="img/dadoD4.svg">D4</label>
             </li>
             <li class="lista__dados">
-                <input name="numeroLados" id="dezLados" type="radio" value="10">
-                <label for="numeroLados">D10</label>
+                <input class="lista__dados__input" id="dadoD6" name="numeroLados" type="radio" value="6">
+                <label for="dadoD6"><img src="img/dadoD6.svg">D6</label>
             </li>
             <li class="lista__dados">
-                <input name="numeroLados" id="dozeLados" type="radio" value="12">
-                <label for="numeroLados">D12</label>
+                <input class="lista__dados__input" id="dadoD8" name="numeroLados" type="radio" value="8">
+                <label for="dadoD8"><img src="img/dadoD8.svg">D8</label>
             </li>
             <li class="lista__dados">
-                <input name="numeroLados" id="vinteLados" type="radio" value="20">
-                <label for="numeroLados">D20</label>
+                <input class="lista__dados__input" id="dadoD10" name="numeroLados" type="radio" value="10">
+                <label for="dadoD10"><img src="img/dadoD10.svg">D10</label>
+            </li>
+            <li class="lista__dados">
+                <input class="lista__dados__input" id="dadoD12" name="numeroLados" type="radio" value="12">
+                <label for="dadoD12"><img src="img/dadoD12.svg">D12</label>
+            </li>
+            <li class="lista__dados">
+                <input class="lista__dados__input" id="dadoD20" name="numeroLados" type="radio" value="20">
+                <label for="dadoD20"><img src="img/dadoD20.svg">D20</label>
             </li>
         </ul>
         <footer class="rodape">
