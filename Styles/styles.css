@@ -61,7 +61,7 @@ body{
 
 
 .resultado{
-    font-size: 96px;
+    font-size: 64px;
     font-weight: 700;
 }
 .secundario{
@@ -146,7 +146,7 @@ body{
 
 .lista{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     margin: 2rem 2rem;
@@ -214,5 +214,9 @@ body{
 @media screen and (min-width: 350px) {
     .header__imgDados{
         display: block;
+    }
+
+    .lista{
+        width: 200px;
     }
 }
