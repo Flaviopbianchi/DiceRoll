@@ -17,8 +17,8 @@ que resultam em um número aleatório.
 
 - v1.0.2
   - Foi adicionado as imagens dos dados no menu e a função de seletor de valores dos dados foi restruturada.
-  - Devido a inserção das imagens, ao invés de selecionar o value pelo input="radio" a função agora  seleciona o value atribuido ao id da label.
-  - Agora o usuário sabe que o dado selecionado para ser rolado é o dado que está contornado pela borda no menu de seleção de dados.
+  - Devido a inserção das imagens, ao invés de selecionar o value pelo input="radio" a função agora seleciona o value atribuido ao id da label.
+  - Adicionado contorno no dado selecionado no menu de seleção de dados. 
   - A posição do botão 'rolar' foi alterada para facilitar a interação com usuário mobile.
   
 
